@@ -20,7 +20,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 0;
+    padding: .75em 0;
 }
 li a {
     text-decoration: none;
