@@ -18,7 +18,7 @@ ul {
     list-style: none;
     margin: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 1em 0;
 }
@@ -44,4 +44,9 @@ width: 65%;
 }
 li a:hover{
     color: var(--orange);
+}
+hr.style {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
