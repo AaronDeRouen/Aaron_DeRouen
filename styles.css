@@ -10,7 +10,6 @@ body {
     font-family: montserrat;
     background: url(Background-image.jpg) no-repeat;
     background-size: cover;
-    height: calc(100vh - 80px);
 }
 
 nav {
