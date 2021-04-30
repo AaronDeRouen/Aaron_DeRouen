@@ -6,14 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Aaron's Site</title>
 
     <style>
         .info {
             text-align: center;
         }
-        
+
+        .career {
+            padding-left: 10px;
+        }
+
+        .img {
+            padding-left: 10px;
+        }
     </style>
 </head>
 
@@ -21,16 +29,21 @@
 
 <body>
 
-    <div id="navbar">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Welcome</label>
         <ul>
-            <li><a href="index.html">Home Page</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
             <li><a href="Cover.html">Cover Letter</a></li>
-            <li><a href="Resume.html">My Resume</a></li>
+            <li><a href="Resume.html">Resume</a></li>
             <li><a href="Hobbies.html">Hobbies</a></li>
-            <li><a href="Contact.html">Contact Me</a></li>
+            <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </div>
-
+    </nav>
+    <br>
     <div class="info">
         <h1>Aaron Louis DeRouen</h1>
         <h2>Cove, Texas 77523</h2>
@@ -40,9 +53,9 @@
     <hr class="style">
 
     <div class="career">
-    <h1>Career Objectives</h1>
-    <p>I seek a position with a company:</p>
-    
+        <h1>Career Objectives</h1>
+        <p>I seek a position with a company:</p>
+
         <ol>
             <li>That is international</li>
             <li>That will push my web developing abilities</li>
@@ -51,13 +64,12 @@
     </div>
 
     <hr class="style">
-    
-    <div class="img">
-    <img src="Cherry Blossom.jpg" alt="Cherry Blossom">
-    </div>
-    
-    <hr class="style">
 
+    <div class="img">
+        <img src="Cherry Blossom.jpg" alt="Cherry Blossom">
+    </div>
+
+    <hr class="style">
 </body>
 
 </html>
