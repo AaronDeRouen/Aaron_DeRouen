@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Aaron's Site</title>
 
     <style>
@@ -17,26 +16,37 @@
 
         .images {
             text-align: center;
+            font-weight: bold;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+        body{
+            padding-bottom: 30px;
         }
     </style>
 </head>
 
 <body>
 
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Welcome</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Cover.html">Cover Letter</a></li>
             <li><a href="Resume.html">Resume</a></li>
             <li><a href="Hobbies.html">Hobbies</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
+
     <br>
     <div class="hobbies">
         <h2>Aaron Louis DeRouen</h2>
@@ -46,22 +56,22 @@
     <hr class="style">
     <br>
     <div class="images">
-        <h3>Japanese Culture</h3>
+        <h2><strong><u class="underline">Japanese Culture</u></strong></h2>
         <p>I enjoy learning the Japanese language in my freetime. The culture of the Japanese intrigues me, from their
             respect for each other, their cleaniness, the technology, along with the beautiful scenery.</p>
         <img src="Mt.Fugi.jpg" alt="Mt. Fugi">
         <br>
-        <h3>Airplanes</h3>
+        <h2><strong><u class="underline">Airplanes</u></strong></h2>
         <p>Ever since I was a young boy I had a love for airplanes. I love flying, I love the smell of jet fuel, and I
             soon want to recieve my private pilots license</p>
         <img src="Cessna.jpg" alt="Airplane">
         <br>
-        <h3>History</h3>
+        <h2><strong><u class="underline">History</u></strong></h2>
         <p>My passion for American history has grown so much as I have matured. I love watching documentary films of the
             American Revolution and take in the greatness of our countrys' founding fathers.</p>
         <img src="George.jpg" alt="George Washington">
         <br>
-        <h3>Golf</h3>
+        <h2><strong><u class="underline">Golf</u></strong></h2>
         <p>When I was entering high school I was introduced to golf. Golf was a game I excelled at, and I still enjoy
             playing in my freetime with friends.</p>
         <img src="Trump.jpg" alt="MAGA">
