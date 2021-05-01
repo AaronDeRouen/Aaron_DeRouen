@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Aaron's Site</title>
 
     <style>
@@ -17,6 +16,7 @@
 
         .cover {
             padding-left: 10px;
+            font-weight: bold;
         }
         .underline{
 text-decoration: underline;
@@ -26,22 +26,24 @@ text-decoration: underline;
 
 <body>
 
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Welcome</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Cover.html">Cover Letter</a></li>
             <li><a href="Resume.html">Resume</a></li>
             <li><a href="Hobbies.html">Hobbies</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 
-    <br>
+ 
     <div class="head">
         <h2>Aaron Louis DeRouen</h2>
         <h3><em>Cover Letter</em></h3>
@@ -51,10 +53,10 @@ text-decoration: underline;
     <div class="cover">
         <h3><u class="underline">My Intended Major</u></h3>
         <br>
-        <ol>
+        <ul>
             <li>Bachelor of Science in Information Technology</li>
             <li>2022 Projected Graduation</li>
-        </ol>
+        </ul>
         <br>
         <h3><u class="underline">Experience Summary</u></h3>
         <br>
