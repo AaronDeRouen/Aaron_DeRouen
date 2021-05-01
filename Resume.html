@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Aaron's Site</title>
     <style>
         .head {
@@ -16,36 +15,43 @@
 
         #heading {
             text-align: center;
+            font-weight: bold;
         }
 
         .resume {
             text-align: left;
             padding-left: 10px;
+            font-weight: bold;
         }
 
         .underline {
             text-decoration: underline;
+        }
+        h4{
+            font-size: 20px;
         }
     </style>
 </head>
 
 <body>
 
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Welcome</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Cover.html">Cover Letter</a></li>
             <li><a href="Resume.html">Resume</a></li>
             <li><a href="Hobbies.html">Hobbies</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <br>
+    </div>
+
     <div class="head">
         <h2>Aaron Louis DeRouen</h2>
         <h3><em>Resume</em></h3>
@@ -65,64 +71,37 @@
 
         <br>
         <br>
-        <strong><u class="underline">Objective:</u></strong> To apply my computer science knowledge towards a fulfilling
-        career as a web
-        developer.
-        <br>
-        <br>
-        <strong>Work Experience</strong>
-        <br>
-        <br>
-        <strong><u class="underline">INEOS Olefins and Polymers</u> – December 2019 - Present</strong>
-        <br>
-        <br>
+        <h4><strong><u class="underline">Objective:</u></strong></h4> 
+        <p>• To apply my computer science knowledge towards a fulfilling career as a web developer.</p>
+        <h3><strong>Work Experience</strong></h3>
+        <h4><strong><u class="underline">INEOS Olefins and Polymers</u> – December 2019 - Present</strong></h4>
         <strong>Process Operator</strong>
         <br>
-        <br>
-        • Monitor equipment to ensure the quality, efficiency, and safety of the process.
-        • Responsible for safe operations, maintenance, and troubleshooting of equipment and instruments.
-        • Communicate ideas with unit team members for continuous improvement of the process.
-        • Proper verbal and written shift relief to help eliminate miscommunication.
-        <br>
-        <br>
-        <strong><u class="underline">Ascend Performance Materials</u> – September 2018 – November 2019</strong>
-        <br>
-        <br>
+        <p>• Monitor equipment to ensure the quality, efficiency, and safety of the process.
+            • Responsible for safe operations, maintenance, and troubleshooting of equipment and instruments.
+            • Communicate ideas with unit team members for continuous improvement of the process.
+            • Proper verbal and written shift relief to help eliminate miscommunication.</p>
+        <h4><strong><u class="underline">Ascend Performance Materials</u> – September 2018 – November 2019</strong></h4>
         <strong>Process Operator</strong>
         <br>
-        <br>
-        • Load/unload tank trucks, in rail cars. Making sure all documentation is correct.
-        • Monitor equipment to ensure the quality, efficiency, and safety of the process.
-        • Responsible for safe operations, maintenance, and troubleshooting of equipment and instruments.
-        • Communicate ideas with unit team members for continuous improvement of the process.
-        • Proper verbal and written shift relief to help eliminate miscommunication.
-        <br>
-        <br>
-        <strong><u class="underline">Kelly Scientific Resources</u> – February 2016 – September 2018</strong>
-        <br>
-        <br>
+        <p>• Load/unload tank trucks, in rail cars. Making sure all documentation is correct.
+            • Monitor equipment to ensure the quality, efficiency, and safety of the process.
+            • Responsible for safe operations, maintenance, and troubleshooting of equipment and instruments.
+            • Communicate ideas with unit team members for continuous improvement of the process.
+            • Proper verbal and written shift relief to help eliminate miscommunication.</p>
+        <h4><strong><u class="underline">Kelly Scientific Resources</u> – February 2016 – September 2018</strong></h4>
         <strong>Laboratory Technician</strong>
         <br>
-        <br>
-        • Conducted analysis on process stream and finished production material.
-        • Recorded data analysis into sample manager software.
-        • Troubleshooted lab equipment when necessary.
-        <br>
-        <br>
-        <strong><u class="underline">Eurecat U.S. Inc</u> – November 2012 – May 2014</strong>
-        <br>
-        <br>
+        <p>• Conducted analysis on process stream and finished production material.
+            • Recorded data analysis into sample manager software.
+            • Troubleshooted lab equipment when necessary.</p>
+        <h4><strong><u class="underline">Eurecat U.S. Inc</u> – November 2012 – May 2014</strong></h4>
         <strong>Laboratory Technician</strong>
         <br>
-        <br>
-        • Conducted physical test on and regenerated and spent catalyst.
-        • Performed carbon sulfur testing using a LECO analyzer.
-        • Recorded lab results inside an Excel spreadsheet.
-        <br>
-        <br>
-        <strong>Education:</strong>
-        <br>
-        <br>
+        <p>• Conducted physical test on and regenerated and spent catalyst.
+            • Performed carbon sulfur testing using a LECO analyzer.
+            • Recorded lab results inside an Excel spreadsheet.</p>
+        <h4><strong><u class="underline">Education:</u></strong></h4>
         <strong>• Bachelor of Science in Information Technology (Present)</strong>
         <br>
         Liberty University, Lynchburg, VA
