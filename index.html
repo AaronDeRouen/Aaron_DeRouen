@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Aaron's Site</title>
 
     <style>
@@ -17,6 +16,7 @@
 
         .career {
             padding-left: 10px;
+            font-weight: bold;
         }
 
         .img {
@@ -29,21 +29,23 @@
 
 <body>
 
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Welcome</label>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Cover.html">Cover Letter</a></li>
             <li><a href="Resume.html">Resume</a></li>
             <li><a href="Hobbies.html">Hobbies</a></li>
             <li><a href="Contact.html">Contact</a></li>
         </ul>
-    </nav>
-    <br>
+    </div>
+
     <div class="info">
         <h1>Aaron Louis DeRouen</h1>
         <h2>Cove, Texas 77523</h2>
@@ -56,11 +58,11 @@
         <h1>Career Objectives</h1>
         <p>I seek a position with a company:</p>
 
-        <ol>
+        <ul>
             <li>That is international</li>
             <li>That will push my web developing abilities</li>
             <li>That builds on team success</li>
-        </ol>
+        </ul>
     </div>
 
     <hr class="style">
