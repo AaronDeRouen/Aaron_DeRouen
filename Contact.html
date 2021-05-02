@@ -31,9 +31,27 @@
         .curious {
             text-align: center;
             font-weight: bold;
-            color t: black;
+            color: black;
             font-size: 20px;
         }
+        
+        img {
+            animation-duration: 3s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 31.5%;
+            }
+        }
+        
     </style>
 </head>
 
