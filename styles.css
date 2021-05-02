@@ -1,10 +1,12 @@
 body {
     font-family: montserrat;
-    background-color: #e1e1e1;
+    color: #e7e6d6;
+    background-image: url(https://caavadesign.com/wp-content/uploads/2012/09/caava-3.0_desktop_home-1.jpg);
+    overflow-x: hidden;
+    background-size: cover;
 }
 
-html,
-body {
+html {
     overflow-x: hidden;
     height: 100%;
 }
@@ -21,6 +23,7 @@ body {
     height: 60px;
     overflow: hidden;
     z-index: 10;
+    opacity: 75%;
 }
 
 .main {
@@ -39,6 +42,7 @@ body {
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background: #2c3e50;
+    opacity: 75%;
 }
 
 .sidebarMenuInner {
@@ -50,7 +54,7 @@ body {
 
 .sidebarMenuInner li {
     list-style: none;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
@@ -62,12 +66,12 @@ body {
 .sidebarMenuInner li span {
     display: block;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.50);
+    color: white;
 
 }
 
 .sidebarMenuInner li a {
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
