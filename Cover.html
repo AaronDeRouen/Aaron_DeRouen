@@ -2,20 +2,17 @@
 <html lang="en">
 
 <head>
+    <meta name="description"
+        content="The Louis Design site was built to show Aaron DeRouens' Front-End Developer skills.">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <title>Louis Designs</title>
 
     <style>
-        .head1 {
-            text-align: center;
-            padding-top: 45px;
-            color: black;
-            font-size: 20px;
-        }
 
         .cover {
             padding-left: 10px;
@@ -29,9 +26,37 @@
             text-decoration: underline;
         }
 
-     html {
-        background-color: #E7E6D6;
-     }
+        section.coverpage_photo {
+            background-image: url(https://caavadesign.com/wp-content/uploads/2016/12/caava-3.0_desktop_home3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Pistilli', serif;
+            font-weight: 500px;
+            font-size: 5vw;
+            color: #E7E6D6;
+            padding-top: 500px;
+            padding-left: 30px;
+            padding-bottom: 20px;
+        }
+html {
+    background-color: #E7E6D6;
+}
+        h1 {
+            animation-duration: 2s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
 
     </style>
 </head>
@@ -55,15 +80,14 @@
         </ul>
     </div>
 
+<section class="coverpage_photo">
+    <h1>Cover Letter.</h1>
+</section>
+
     <!--COVER LETTER START-->
 
-    <section class="coverpage">
-
-        <div class="head1">
-            <h1><em>Cover Letter</em></h1>
-        </div>
-
-        <hr class="style">
+    <section class="cover_page">
+        
         <br>
         <div class="cover">
             <h3><u class="underline">Career Objectives</u></h3>
