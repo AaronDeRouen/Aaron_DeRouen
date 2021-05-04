@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    <title>Louis Designs</title>
+    <title>Hobbies - Louis Designs</title>
 
     <style>
         .hobbies {
@@ -30,6 +30,37 @@
         html {
             background-color: #2c3e50;
         }
+        section.header_photo {
+            background-image: url(https://caavadesign.com/wp-content/uploads/2016/12/caava-3.0_desktop_home4.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-left: 30px;
+            padding-top: 600px;
+            padding-bottom: 20px;
+        }
+        .title {
+            font-family: 'Pistilli', serif;
+            font-size: 6vw;
+            color: #E7E6D6;
+            text-shadow: 2px 2px black;
+            animation-name: slideMe;
+            animation-duration: 3s;
+        
+        }
+        .images2{
+            width: 300px;
+            height: 160px;
+            border-radius: 2em;
+        }
+        @keyframes slideMe {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+       
     </style>
 </head>
 
@@ -53,13 +84,12 @@
     </div>
 
     <!--HOBBIES PAGE-->
+<section class="header_photo">
+    <h1 class="title">Hobbies & Interest.</h1>
+</section>
 
 <section class="hobbiespage">
     <br>
-    <div class="hobbies">
-        <h1>Hobbies and Interest</h1>
-    </div>
-
     <br>
     <hr class="style">
     <br>
@@ -67,22 +97,21 @@
         <h2><strong><u class="underline">Japanese Culture</u></strong></h2>
         <p>I enjoy learning the Japanese language in my freetime. The culture of the Japanese intrigues me, from their
             respect for each other, their cleaniness, the technology, along with the beautiful scenery.</p>
-        <img src="Mt.Fugi.jpg" alt="Mt. Fugi">
+        <img class="images2" src="Mt.Fugi.jpg" alt="Mt. Fugi">
         <br>
         <h2><strong><u class="underline">Airplanes</u></strong></h2>
         <p>Ever since I was a young boy I had a love for airplanes. I love flying, I love the smell of jet fuel, and I
             soon want to recieve my private pilots license</p>
-        <img src="Cessna.jpg" alt="Airplane">
+        <img class="images2" src="Cessna.jpg" alt="Airplane">
         <br>
-        <h2><strong><u class="underline">History</u></strong></h2>
-        <p>My passion for American history has grown so much as I have matured. I love watching documentary films of the
-            American Revolution and take in the greatness of our countrys' founding fathers.</p>
-        <img src="George.jpg" alt="George Washington">
+        <h2><strong><u class="underline">Technology</u></strong></h2>
+        <p>My passion for the advancement of technology has brought my down a new and exciting career path. Creating inspiring website's that brings UI/UX to a higher level.</p>
+        <img class="images2" src="Keyboard.jpg" alt="Keyboard">
         <br>
         <h2><strong><u class="underline">Golf</u></strong></h2>
-        <p>When I was entering high school I was introduced to golf. Golf was a game I excelled at, and I still enjoy
+        <p>When I was a child, I was introduced to golf. Golf was a game I excelled at, and I still enjoy
             playing in my freetime with friends.</p>
-        <img src="Trump.jpg" alt="MAGA">
+        <img class="images2" src="golf.jpg" alt="golf ball">
     </div>
 
     <hr class="style">
